@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAISAL ABDUL AZIZ</title>
+<link rel="stylesheet" href="styles.css"> <!-- Jika ada stylesheet terpisah -->
+<!-- Link CDN untuk Feather Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.css">
+<style>
+  html, body {
+    height: 100%; /* Tinggi 100% untuk body dan html */
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column; /* Menyusun elemen secara vertikal */
+  }
+
+  header {
+    text-align: center;
+    
+    color: #fff;
+    padding: 1rem 0;
+  }
+
+  .profile {
+    background-color: #d0d1cc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 300px;
+    flex: 1; /* Mengisi ruang kosong di tengah dengan elemen profil */
+  }
+
+  .profile img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+
+  .profile h2 {
+    color: #333;
+  }
+
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-links a {
+    text-decoration: none;
+    color: #007bff;
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+  }
+
+  footer {
+    text-align: center;
+   
+    color: #fff;
+    padding: 1rem 0;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Profil Sosial Media Saya</h1>
+  </header>
+  <main>
+    <section class="profile">
+      <img src="img/profil-small.jpg" alt="Foto Profil">
+      <h2>FAISAL ABDUL AZIZ</h2>
+      <div class="social-links">
+        <a href="https://www.facebook.com/faisal.abdulaziz.77736?mibextid=ZbWKwL">
+          <i data-feather="facebook"></i> FAISAL ABDUL AZIZ
+        </a>
+        <a href="https://instagram.com/isall_ya?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D">
+          <i data-feather="instagram"></i> isall_ya
+        </a>
+        </a>
+        <!-- Tambahkan tautan sosial media lainnya di sini -->
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p></p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  <script>
+    feather.replace(); // Menggantikan tag <i> dengan ikon Feather
+  </script>
+</body>
+</html>
